@@ -1,0 +1,16 @@
+{
+    "name":"futauto2d",
+    "version":"1.0",
+    "manifest_version":2,
+
+    "description":"二次元実況@ふたばオートスクロール",
+
+    "content_scripts":[
+        {
+            "matches":["http://dec.2chan.net/18/res/*"],
+            "js":["lib/jquery-1.9.1.min.js", "lib/def.js","lib/content.js"],
+            "css":["style/style.css"]
+        }
+    ]
+}
+

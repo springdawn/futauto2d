@@ -1,0 +1,9 @@
+.futauto2d_start_button {
+    position:fixed;
+}
+.futauto2d_stop_button {
+    position:fixed;
+}
+.start_res {
+    background:red;
+}
